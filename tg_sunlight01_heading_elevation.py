@@ -20,7 +20,7 @@ def rpc_sun_heading(heading):
         node.set_param('heading',str(heading))
         rpc_error.set(False)
     except AttributeError as e:
-        show_operation_message("Attribute Error: "+ str(e))
+        show_operation_message("Sunlight 01 not found.  Add or rename a Sunlight node.")
         rpc_error.set(True)
     except ConnectionError as e:
         formatted_operation_message = format_message("Terragen RPC connection error: " + str(e))        
@@ -44,7 +44,7 @@ def rpc_sun_elevation(elevation):
         node.set_param('elevation',str(elevation))
         rpc_error.set(False)
     except AttributeError as e:
-        show_operation_message("Attribute Error: "+ str(e))
+        show_operation_message("Sunlight 01 not found.  Add or rename a Sunlight node.")
         rpc_error.set(True)
     except ConnectionError as e:
         rpc_error.set(True)
