@@ -19,6 +19,9 @@ def rpc_sun_heading(heading):
         node = tg.node_by_path('/Sunlight 01')    
         node.set_param('heading',str(heading))
         rpc_error.set(False)
+    except AttributeError as e:
+        show_operation_message("Attribute Error: "+ str(e))
+        rpc_error.set(True)
     except ConnectionError as e:
         formatted_operation_message = format_message("Terragen RPC connection error: " + str(e))        
         show_operation_message(formatted_operation_message)
@@ -40,6 +43,9 @@ def rpc_sun_elevation(elevation):
         node = tg.node_by_path('/Sunlight 01')    
         node.set_param('elevation',str(elevation))
         rpc_error.set(False)
+    except AttributeError as e:
+        show_operation_message("Attribute Error: "+ str(e))
+        rpc_error.set(True)
     except ConnectionError as e:
         rpc_error.set(True)
         formatted_operation_message = format_message("Terragen RPC connection error: " + str(e))       
