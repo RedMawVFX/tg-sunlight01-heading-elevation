@@ -10,7 +10,8 @@ Terragen 4 Professional (version 4.6.31) introduces a remote procedure call (RPC
 * Manipulate a node's parameters via the terragen_rpc package
 
 ## Usage:
-![tg_sunlight01_heading_elevation GUI](/images/tg-sunlight01-heading-elevation.jpg)
+![tg_sunlight01_heading_elevation GUI](/images/tg-sunlight01-heading-elevation.jpg) <br />
+
 To change the heading of Sunlight 01, click on any of the buttons labeled 0 to 300. <br />
 To change the elevation of Sunlight 01, mainipulate the slider between -90 and +90 degrees, then click the Apply Elevation button.
 
