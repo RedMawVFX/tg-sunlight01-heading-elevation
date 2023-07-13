@@ -4,6 +4,8 @@
 
 Terragen 4 Professional (version 4.6.31) introduces a remote procedure call (RPC) feature which allows third party applications to communicate with the active version of Terragen.
 
+![tg_sunlight01_heading_elevation GUI](/images/tg-sunlight01-heading-elevation.jpg)
+
 ## In this example you'll learn how to: 
 * Create a GUI with labels, buttons, and sliders
 * Handle exceptions (errors)
