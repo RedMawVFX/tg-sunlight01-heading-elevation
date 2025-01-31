@@ -1,4 +1,9 @@
 # tg-sunlight01-heading-elevation
+&#9888; This Python script is now part of the <b>redmaw-tg-toolkit</b> repository, and will no longer be developed as a stand-alone script in this repository.
+
+Click [here](https://github.com/RedMawVFX/redmaw-tg-toolkit) for the redmaw-tg-toolkit repository.<br> 
+Click [here](https://github.com/RedMawVFX/redmaw-tg-toolkit/tree/main/scripts/tg-sunlight01-heading-elevation) to go directly to the <i>tg-sunlight01-heading-elevation</i> folder in the redmaw-tg-toolkit.
+<hr>
 
 ## A fully functional EXAMPLE script written in Python showing how to manipulate the Sunlight 01 node's heading & elevation in Terragen 4 Professional.
 
